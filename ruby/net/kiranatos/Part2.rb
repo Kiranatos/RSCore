@@ -9,7 +9,7 @@ true false nil
 
 
 puts 3 == 3.0 # true 
-# но
+# але
 puts 3.eql?(3.0) # false
 
 puts "abc" < "bca" # true
@@ -49,6 +49,7 @@ until a > 50 # works while false
   a+=1
 end
 
+a > 100 ? (puts "kkk") : (puts "bbb")
 
 a = 42
 case a
@@ -82,3 +83,8 @@ loop do   # infinity cycle
   x +=1
   break if x>10
 end
+
+puts "\n===========  ============"
+arr2 = [5,6,8]
+print arr2
+arr2[0].times { print " + "}
